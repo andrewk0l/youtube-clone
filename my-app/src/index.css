@@ -14,7 +14,7 @@ img{
 cursor : pointer;
 }
 
-.flex-div{
+nav{
     display: flex;
     align-items: center;
 }
