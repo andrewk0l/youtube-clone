@@ -1,16 +1,16 @@
 import React from 'react'
 import './Sidebar.css'
-import home from '../../assets/home.png'
-import game_icon from '../../assets/game_icon.png'
-import automobiles from '../../assets/automobiles.png'
-import sports from '../../assets/sports.png'
-import entertaiment from '../../assets/entertainment.png'
-import tech from '../../assets/tech.png'
-import music from '../../assets/music.png'
+import home from '../../assets/home.gif'
+import game_icon from '../../assets/gaming.png'
+import automobiles from '../../assets/automobile.gif'
+import sports from '../../assets/football.gif'
+import entertaiment from '../../assets/television.png'
+import tech from '../../assets/technology.gif'
+import music from '../../assets/music.gif'
 import blogs from '../../assets/blogs.png'
 import news from '../../assets/news.png'
 import andy from '../../assets/andy.png'
-import cameron from '../../assets/cameron.png'
+import ife from '../../assets/Ife.png'
 import simon from '../../assets/simon.png'
 import tom from '../../assets/tom.png'
 import megan from '../../assets/megan.png'
@@ -45,6 +45,26 @@ const Sidebar = () => {
         </div>
         <div className="side-links">
           <img src={news} alt=''/> <p>News</p>
+        </div>
+
+        <div className='subsribed-list'>
+          <h3>Subscribed</h3>
+          <div className="side-links">
+            <img src={andy} alt='' /> <p>oluwanifemi</p>
+          </div>
+          <div className="side-links">
+            <img src={ife} alt='' /> <p>ifeoluwa</p>
+          </div>
+          <div className="side-links">
+            <img src={simon} alt='' /> <p>simon</p>
+          </div>
+          <div className="side-links">
+            <img src={tom} alt='' /> <p>tom</p>
+          </div>
+          <div className="side-links">
+            <img src={megan} alt='' /> <p>megan</p>
+          </div>
+
         </div>
 
         <hr />
